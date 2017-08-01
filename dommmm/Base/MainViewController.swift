@@ -16,9 +16,9 @@ class MainViewController: UITabBarController {
         let viewMain = ViewController()
         viewMain.title = "Home"
         let viewSetting = SecondViewController()
-        viewSetting.title = "User"
+        viewSetting.title = "一个播放器"
         let scrollview = ScrollViewController()
-        scrollview.title = "就是在旋转跳越"
+        scrollview.title = "轮播图"
         let motionVC = MotionViewController()
         motionVC.title = "设备各种数据"
         
