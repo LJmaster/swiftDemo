@@ -39,11 +39,16 @@
 		351DB68E1F287EF300304176 /* boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 351DB66C1F287EF300304176 /* boy.mp3 */; };
 		351DB68F1F287EF300304176 /* liangbo.png in Resources */ = {isa = PBXBuildFile; fileRef = 351DB66D1F287EF300304176 /* liangbo.png */; };
 		351DB6911F287F3800304176 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351DB6901F287F3800304176 /* HttpController.swift */; };
+		352EAE4A1F4FC6D500F2A84F /* LJNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352EAE491F4FC6D500F2A84F /* LJNavigationViewController.swift */; };
+		352EAE4C1F4FCC3B00F2A84F /* LJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352EAE4B1F4FCC3B00F2A84F /* LJViewController.swift */; };
 		3553B73C1EE0161B00ACDF37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3553B73A1EE0161B00ACDF37 /* Main.storyboard */; };
 		3553B73E1EE0161B00ACDF37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3553B73D1EE0161B00ACDF37 /* Assets.xcassets */; };
 		3553B7411EE0161B00ACDF37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3553B73F1EE0161B00ACDF37 /* LaunchScreen.storyboard */; };
 		3553B74C1EE0161C00ACDF37 /* dommmmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553B74B1EE0161C00ACDF37 /* dommmmTests.swift */; };
 		3553B7571EE0161C00ACDF37 /* dommmmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553B7561EE0161C00ACDF37 /* dommmmUITests.swift */; };
+		35E53F7D1F3DA2FC005027D3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35E53F7A1F3DA2FC005027D3 /* MBProgressHUD.bundle */; };
+		35E53F7E1F3DA2FC005027D3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E53F7C1F3DA2FC005027D3 /* MBProgressHUD.m */; };
+		35E53F811F3DA3D5005027D3 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E53F801F3DA3D5005027D3 /* HUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +121,8 @@
 		351DB66C1F287EF300304176 /* boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boy.mp3; sourceTree = "<group>"; };
 		351DB66D1F287EF300304176 /* liangbo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liangbo.png; sourceTree = "<group>"; };
 		351DB6901F287F3800304176 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		352EAE491F4FC6D500F2A84F /* LJNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJNavigationViewController.swift; sourceTree = "<group>"; };
+		352EAE4B1F4FCC3B00F2A84F /* LJViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJViewController.swift; sourceTree = "<group>"; };
 		3553B7331EE0161B00ACDF37 /* dommmm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dommmm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3553B73B1EE0161B00ACDF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3553B73D1EE0161B00ACDF37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +135,10 @@
 		3553B7561EE0161C00ACDF37 /* dommmmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dommmmUITests.swift; sourceTree = "<group>"; };
 		3553B7581EE0161C00ACDF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35922D441F00F3B700526CD4 /* xxx_Bridge_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xxx_Bridge_Header.h; sourceTree = "<group>"; };
+		35E53F7A1F3DA2FC005027D3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		35E53F7B1F3DA2FC005027D3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		35E53F7C1F3DA2FC005027D3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		35E53F801F3DA3D5005027D3 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				351DB62D1F287EF300304176 /* MainViewController.swift */,
+				352EAE491F4FC6D500F2A84F /* LJNavigationViewController.swift */,
+				352EAE4B1F4FCC3B00F2A84F /* LJViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -181,6 +194,7 @@
 				351DB6341F287EF300304176 /* SecondViewController.swift */,
 				351DB6351F287EF300304176 /* User.swift */,
 				351DB6361F287EF300304176 /* ViewController.swift */,
+				35E53F801F3DA3D5005027D3 /* HUD.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -195,6 +209,9 @@
 		351DB6381F287EF300304176 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				35E53F7A1F3DA2FC005027D3 /* MBProgressHUD.bundle */,
+				35E53F7B1F3DA2FC005027D3 /* MBProgressHUD.h */,
+				35E53F7C1F3DA2FC005027D3 /* MBProgressHUD.m */,
 				351DB6391F287EF300304176 /* Masonry */,
 				351DB63A1F287EF300304176 /* MJRefresh */,
 			);
@@ -513,6 +530,7 @@
 				351DB6871F287EF300304176 /* MJRefresh.bundle in Resources */,
 				351DB68F1F287EF300304176 /* liangbo.png in Resources */,
 				3553B73C1EE0161B00ACDF37 /* Main.storyboard in Resources */,
+				35E53F7D1F3DA2FC005027D3 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352EAE4A1F4FC6D500F2A84F /* LJNavigationViewController.swift in Sources */,
 				351DB6791F287EF300304176 /* MJRefreshAutoFooter.m in Sources */,
 				351DB6911F287F3800304176 /* HttpController.swift in Sources */,
 				351DB6801F287EF300304176 /* MJRefreshAutoStateFooter.m in Sources */,
@@ -544,6 +563,7 @@
 				351DB68C1F287EF300304176 /* UIView+MJExtension.m in Sources */,
 				351DB68D1F287EF300304176 /* AppDelegate.swift in Sources */,
 				351DB6841F287EF300304176 /* MJRefreshGifHeader.m in Sources */,
+				35E53F7E1F3DA2FC005027D3 /* MBProgressHUD.m in Sources */,
 				351DB6701F287EF300304176 /* MainViewController.swift in Sources */,
 				351DB68B1F287EF300304176 /* UIScrollView+MJRefresh.m in Sources */,
 				351DB6751F287EF300304176 /* ScrollViewController.swift in Sources */,
@@ -554,6 +574,7 @@
 				351DB6781F287EF300304176 /* ViewController.swift in Sources */,
 				351DB67E1F287EF300304176 /* MJRefreshAutoGifFooter.m in Sources */,
 				351DB6711F287EF300304176 /* FirstViewController.swift in Sources */,
+				35E53F811F3DA3D5005027D3 /* HUD.swift in Sources */,
 				351DB6891F287EF300304176 /* NSBundle+MJRefresh.m in Sources */,
 				351DB68A1F287EF300304176 /* UIScrollView+MJExtension.m in Sources */,
 				351DB6771F287EF300304176 /* User.swift in Sources */,
@@ -562,6 +583,7 @@
 				351DB6811F287EF300304176 /* MJRefreshBackGifFooter.m in Sources */,
 				351DB6761F287EF300304176 /* SecondViewController.swift in Sources */,
 				351DB6861F287EF300304176 /* MJRefreshStateHeader.m in Sources */,
+				352EAE4C1F4FCC3B00F2A84F /* LJViewController.swift in Sources */,
 				351DB6831F287EF300304176 /* MJRefreshBackStateFooter.m in Sources */,
 				351DB6851F287EF300304176 /* MJRefreshNormalHeader.m in Sources */,
 				351DB67F1F287EF300304176 /* MJRefreshAutoNormalFooter.m in Sources */,

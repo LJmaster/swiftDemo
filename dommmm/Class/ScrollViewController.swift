@@ -12,12 +12,61 @@ import UIKit
 
 class ScrollViewController: UIViewController,UIScrollViewDelegate {
     
+    
     var scrollView : UIScrollView!
     var pageController : UIPageControl!
     var imageArray = ["countdownbg1","countdownbg2","countdownbg3","countdownbg4","countdownbg7","countdownbg8",]
     var cnt = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        automaticallyAdjustsScrollViewInsets = false
+        
+        //        scrollView = UIScrollView(frame:CGRect(x:100, y:0, width:WIDTH, height:160))
+        //        scrollView.delegate = self
+        //        scrollView.isPagingEnabled = true
+        //        scrollView.scrollsToTop = false
+        //        scrollView.showsHorizontalScrollIndicator = false
+        //        scrollView.backgroundColor = UIColor.clear
+        //        scrollView.bounces = false
+        //        scrollView.clipsToBounds = false
+        //        lView.addSubview(scrollView)
+        //
+        //        for i in 0...count {
+        //            let imageView = UIImageView(frame:CGRect(x:CGFloat(Float(i)) * WIDTH + CGFloat(Float(spacre)), y:scrollView.frame.size.height/2 - 10, width:WIDTH - 2 * CGFloat(Float(spacre)), height:140))
+        //            imageView.backgroundColor = UIColor.yellow
+        //            scrollView.addSubview(imageView)
+        //        }
+        //       scrollView.contentSize = CGSize(width:WIDTH * CGFloat(Float(count)), height:160)
+        //       scrollView.setContentOffset(CGPoint(x:WIDTH,y:0), animated: false)
+        
+        //    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        //        let offset_x:CGFloat = scrollView.contentOffset.x
+        //
+        //
+        //        if (fmod(offset_x, WIDTH) != 0) {
+        //
+        //            if (offset_x / WIDTH > 0 && offset_x / WIDTH < 1 && offset_x < WIDTH / 2) {
+        //
+        //                scrollView.contentOffset = CGPoint(x:(CGFloat(Float(count - 2))) * WIDTH + offset_x,y:0);
+        //            }else if (offset_x / WIDTH < CGFloat(Float(count - 1)) && offset_x / WIDTH > CGFloat(Float(count - 2)) && offset_x - WIDTH * CGFloat(Float(count - 2)) > WIDTH / 2){
+        //
+        //                scrollView.contentOffset = CGPoint(x:offset_x - (WIDTH * CGFloat(Float(count - 2))), y:0);
+        //            }
+        //        }
+        //    }
+        //
+        //    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        //   
+        //        let offset_x:CGFloat = scrollView.contentOffset.x
+        //        
+        //        let hhh = offset_x / WIDTH
+        //        
+        //        print("这是变化的第几个 + \(hhh)")
+        //        
+        //    }
+        
+        
 
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "图片",style: UIBarButtonItemStyle.plain, target: self, action:#selector(selectImage))
         

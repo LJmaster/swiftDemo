@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class Account{
     var amount : Double = 0.0
     var owner : String = ""
@@ -22,6 +23,7 @@ class Account{
 }
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,HttpProtocol {
+    
     var a : UIView!
     var b : UIView!
     var c : UIView!
@@ -59,6 +61,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()) {
+            showHud(msg: "loading", view: self.view)
+        }
+
+        
         //取消
         let sttere  = "  sjsjsjjsj   "
         let sttere1 = sttere.trimmingCharacters(in: .whitespaces)

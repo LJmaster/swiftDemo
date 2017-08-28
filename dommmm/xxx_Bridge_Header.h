@@ -11,5 +11,6 @@
 
 
 #import "MJRefresh.h"
+#import "MBProgressHUD.h"
 
 #endif /* xxx_Bridge_Header_h */
